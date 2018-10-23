@@ -1,0 +1,96 @@
+.push-heart{
+  color: rgb(223, 4, 22);
+}
+
+.fav-phrase{
+  font-size: 2rem;
+  margin-top: 150px;
+  color: #525559;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .display-3 {
+    font-size: 2.5rem !important;
+  }
+}
+
+body {
+	background: #000000 !important;
+}
+
+.card {
+  background-color:#000 !important; 
+}
+
+.text-description-favoris {
+  max-height: 300px !important;
+  overflow-y: scroll;
+}
+
+.movie-poster-favoris {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 5% 0;
+  object-position: 5% 0;
+}
+
+.nopaddingright {
+  padding-right: 0px !important;
+}
+.poster-like {
+  height: 100%!important;
+  position: relative !important;
+  overflow: hidden !important;
+  border-radius: 7px 0 0 7px !important;
+}
+
+.card-block {
+  color : whitesmoke;
+  border-radius: 0 7px 7px 0 !important;
+}
+
+.coeur {
+  cursor: pointer;
+  font-size: 25px !important;
+  color: red;
+}
+
+.top {
+  margin-top: 64px !important;
+}
+
+.ajust-height {
+  height : 250px;
+}
+
+@media screen and (max-width:768px)/*IPAD*/{
+  .card-block {
+    font-size: 12px; 
+  }
+  .favoris-desktop-description {
+    display: block;
+    height: 515px;
+    overflow: scroll;
+  }
+}
+.favoris-desktop-description {
+  height: 515px;
+  overflow: scroll;
+  padding-left: 10px !important;
+}
+@media screen and (max-width:520px)/*smartphone*/{
+  .ajust-scale {
+    height : 250px
+  }
+  .card-block {
+    font-size: 12px;
+  }
+  #position {
+    padding: 1rem !important ;
+  }
+}

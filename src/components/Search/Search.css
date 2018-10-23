@@ -1,0 +1,95 @@
+.btn, .btn-link, .bg-black {
+  color: #5FD4F4 !important;
+}
+
+.btn-dark {
+	background-color:#141414 !important;
+	border-color: #525559 !important;
+	margin-left: 3rem !important;
+}
+
+.btn-dark:hover {
+	background-color: #23272b !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 668px){
+  .btn-dark{
+    margin-left: 0 !important;
+  }
+}
+
+.input-group > .form-control{
+	flex: 0.5 1 auto !important;
+}
+
+.btn {
+	border-radius: 4px 0 0 4px !important;
+}
+
+.search {
+  padding-left: 30px !important;
+}
+
+.searchBox {
+	display: flex;
+	width: 90% !important;
+}
+
+.form-control {
+	background-color:#141414 !important;
+	border: 1px solid #525559 !important;
+	color: #5FD4F4 !important;
+	border-right: 0px !important;
+	border-left: 0px !important;
+	margin-right: -2px !important;
+	border-radius: 0px !important;
+}
+
+.btn-outline-secondary{
+	border-color:  #525559 !important;
+	border-radius: 0 4px 4px 0 !important;
+}
+
+.btn-outline-secondary:hover{
+	background-color: #23272b !important;
+}
+
+.bd-black {
+	opacity: 1 !important;
+}
+
+.bg-black {
+	background-color: #000000;
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.dropdown-menu {
+	background-color:#141414 !important;
+}
+
+.dropdown-item {
+	color: #5FD4F4 !important;
+}
+
+.dropdown-item:hover {
+	background-color: #23272b !important;
+}
+
+.modal-dialog {
+	width : 700px;
+}
+
+@media screen and (max-width: 500px) {
+  .research-desktop-description {
+    display: none;
+	}
+}
+ .research-mobile-description {
+	padding: 0!important;
+}
+ .research-desktop-description{
+	overflow: scroll;
+	height: 515px;
+	padding-left: 10px !important;
+}

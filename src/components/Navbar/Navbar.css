@@ -1,0 +1,93 @@
+h1 {
+  display: inline;
+}
+
+.logo-cine {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #F1F1F1;
+}
+
+.profile{
+  width: 44px;
+  height: 44px;
+}
+
+.logo-react {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #5FD4F4;
+  margin-left: 5px;
+}
+
+.top-fixed-navbar {
+  background-color: #141414;
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.bottom-fixed-navbar {
+  display: none !important;
+	background-color: #141414;
+  position: fixed !important;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar a:hover {
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: #5FD4F4 !important;
+  cursor: pointer;
+}
+
+.nav-link {
+  color:  #F1F1F1 !important;
+  display: flex !important;
+  align-items: center;
+}
+
+.top-fixed-search {
+  display: flex !important;
+} 
+
+.nav-link > .icon {
+  color: #5FD4F4 !important;
+}
+
+.modal-contact {
+  background-color:#141414 !important; 
+  color :#5FD4F4;
+  border : none !important;
+  border-radius: 0 !important;
+}
+
+.git{
+  text-decoration: none;
+  color: white;
+}
+
+.git:hover{
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 800px){
+  .text-link-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 668px){
+  .bottom-fixed-navbar {
+    display: block !important;
+  }
+
+.top-fixed-navbar > .top-fixed-search {
+  display: none !important;
+  }
+}
