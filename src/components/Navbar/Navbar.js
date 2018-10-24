@@ -63,21 +63,21 @@ class Navbar extends Component {
                     </div>
                   </li>
                   <li className="media my-4">
-                    <img src ={process.env.PUBLIC_URL + './images/Matthieu.jpg'} className="rounded-circle profile pull-left"></img>
+                    <img src ={process.env.PUBLIC_URL + './images/Maeva_ronde.jpg'} className="rounded-circle profile pull-left"></img>
                     <div className="media-body">
                       <h5 className="mt-0 mb-1 ml-3">Maéva Duran</h5>
                       <a  className="ml-3 git" href="https://github.com/mae-va" rel="noopener noreferrer" target="_blank">https://github.com/mae-va</a>
                     </div>
                   </li>
                   <li className="media mb-4">
-                    <img src ={process.env.PUBLIC_URL + './images/Matthieu.jpg'} className="rounded-circle profile pull-left"></img>
+                    <img src ={process.env.PUBLIC_URL + './images/Antoine.jpg'} className="rounded-circle profile pull-left"></img>
                     <div className="media-body">
                       <h5 className="mt-0 mb-1 ml-3">Antoine Nourris</h5>
                       <a className="ml-3 git" href="https://github.com/awcs" rel="noopener noreferrer" target="_blank">https://github.com/awcs</a>
                     </div>
                   </li>
                   <li className="media">
-                    <img src ={process.env.PUBLIC_URL + './images/Matthieu.jpg'} className="rounded-circle profile pull-left"></img>
+                    <img src ={process.env.PUBLIC_URL + './images/IMG_1513.jpg'} className="rounded-circle profile pull-left"></img>
                     <div className="media-body">
                       <h5 className="mt-0 mb-1 ml-3">Tiphaine Deswarte</h5>
                       <a  className="ml-3 git" href= "https://github.com/TiphaineDSW" rel="noopener noreferrer" target="_blank">https://github.com/TiphaineDSW</a>
